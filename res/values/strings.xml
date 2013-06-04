@@ -11,5 +11,6 @@
 		O banhista deve evitar tomar banho de mar após a ocorrência de chuvas de maior intensidade, nesse episódio as chuvas contribuem para a deterioração da qualidade das águas das praias carreando uma grande quantidade de esgotos, lixo e outros detritos através de galerias de águas pluviais, córregos e canais de drenagem.
 		Recomenda-se evitar nadar ou praticar outros esportes náuticos em locais com manchas de coloração vermelha, marrom ou azul-esverdeada. Também é recomendável evitar o consumo de frutos do mar desses locais.
 	</string>
-    
+    <string name="title_dialog" >Balneabilidade Fortaleza</string>
+	<string name="text_dialog">Pontos próprios e impróprios para banho na capital cearense.</string>    
 </resources>

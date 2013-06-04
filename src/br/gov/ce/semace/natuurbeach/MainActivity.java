@@ -1,6 +1,8 @@
 package br.gov.ce.semace.natuurbeach;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebSettings;
@@ -22,8 +24,10 @@ public class MainActivity extends Activity {
         wv.setWebViewClient(new MyCustomWebViewClient());
         wv.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         
+        
         wv.loadUrl(getResources().getString(R.string.url));
         
+        createDialog(this);
     }
     
     private class MyCustomWebViewClient extends WebViewClient {
@@ -33,6 +37,14 @@ public class MainActivity extends Activity {
     		view.loadUrl(url);
     		return true;
     	}
+    }
+    
+    protected void createDialog(Context context) {
+    	
+    	AlertDialog.Builder builder = new AlertDialog.Builder(this);
+    	builder.setTitle(R.string.title_dialog);
+    	builder.setMessage(R.string.text_dialog);
+    	builder.show();
     }
     
 }
