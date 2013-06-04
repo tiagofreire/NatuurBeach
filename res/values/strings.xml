@@ -2,7 +2,14 @@
 <resources>
     
     <string name="app_name">Natuur Beach</string>
+    <string name="app_copyright">SEMACE</string>
     <string name="action_settings">Configurações</string>
     <string name="url">http://maps.google.com.br/maps/ms?ie=UTF8&amp;hl=pt-BR&amp;msa=0&amp;msid=211260026750248166082.00049eff51ac2a281766e&amp;t=h&amp;source=embed&amp;ll=-3.72243,-38.512573&amp;spn=0.171299,0.191917&amp;z=12&amp;output=embed</string>
+    <string name="app_description">
+        Pontos próprios e impróprios para banho na capital cearense. Veja mais informações no site: www.semace.ce.gov.br
+		IMPORTANTE
+		O banhista deve evitar tomar banho de mar após a ocorrência de chuvas de maior intensidade, nesse episódio as chuvas contribuem para a deterioração da qualidade das águas das praias carreando uma grande quantidade de esgotos, lixo e outros detritos através de galerias de águas pluviais, córregos e canais de drenagem.
+		Recomenda-se evitar nadar ou praticar outros esportes náuticos em locais com manchas de coloração vermelha, marrom ou azul-esverdeada. Também é recomendável evitar o consumo de frutos do mar desses locais.
+	</string>
     
 </resources>
