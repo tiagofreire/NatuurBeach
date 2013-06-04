@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Natuur Beach</string>
+    <string name="action_settings">Configurações</string>
+    <string name="url">http://maps.google.com.br/maps/ms?ie=UTF8&amp;hl=pt-BR&amp;msa=0&amp;msid=211260026750248166082.00049eff51ac2a281766e&amp;t=h&amp;source=embed&amp;ll=-3.72243,-38.512573&amp;spn=0.171299,0.191917&amp;z=12&amp;output=embed</string>
+    
+</resources>
