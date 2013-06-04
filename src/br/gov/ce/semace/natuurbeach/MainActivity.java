@@ -30,6 +30,13 @@ public class MainActivity extends Activity {
         createDialog(this);
     }
     
+    protected void createDialog(Context context) {
+    	AlertDialog.Builder builder = new AlertDialog.Builder(context);
+    	builder.setTitle(R.string.title_dialog);
+    	builder.setMessage(R.string.text_dialog);
+    	builder.show();
+    }
+    
     private class MyCustomWebViewClient extends WebViewClient {
     	
     	@Override
@@ -37,14 +44,6 @@ public class MainActivity extends Activity {
     		view.loadUrl(url);
     		return true;
     	}
-    }
-    
-    protected void createDialog(Context context) {
-    	
-    	AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    	builder.setTitle(R.string.title_dialog);
-    	builder.setMessage(R.string.text_dialog);
-    	builder.show();
     }
     
 }
